@@ -80,7 +80,7 @@ namespace Nomade_Paco_Mehdi.ViewModels
             return;
 
         // This will push the ItemDetailPage onto the navigation stack
-        await Shell.Current.GoToAsync($"{nameof(ItemDetailPage)}?{nameof(VilleDetailViewModel.VilleId)}={item.VilleID}");
+        await Shell.Current.GoToAsync($"{nameof(VilleDetailPage)}?{nameof(VilleDetailViewModel.VilleId)}={item.VilleID}");
     }
 }
 }
